@@ -6,6 +6,10 @@ permalink: /blog/:title
 ---
 # Exploring Dual WAN Solutions on a Budget
 
+> <img src="/assets/images/2024-11-18-Exploring-Dual-WAN-Solutions-on-a-Budget/wifi_down.jpg" alt="wifi down" style="width: 400px; height: 300px; object-fit: cover;"/>
+> 
+> shudder 
+
 The issue began when one day, the ISP plan that I have been using finally expired. My internet got cut off, and the WAN light on my router began flashing red. The fallback? Tethering on my phone's hotspot, which worked well for a short-term emergency. However, the vast majority of my home systems—still connected to my router and its now non-functional WAN interface—were left without access to the wider internet.
 
 This experience got me thinking: in the event that my ISP connection goes down[^1], is it possible to have my default gateway (i.e. my TP-link router) route traffic through my phone hotspot so that all devices connected to my router can still continue to access the internet to a certain extent[^2]?
