@@ -90,6 +90,6 @@ Theoretically, this DIY setup appears both feasible and cost-effective. With the
 This DIY setup seems promising, at least in theory. If it works, I’ll have found a practical solution to the problem I initially set out to solve: ensuring internet connectivity for my home network during outages. The next step is to test and see if it holds up in practice. Stay tuned!
 
 -------------------
-[^1]: happens fairly frequently in SG ngl
+[^1]: this happens fairly frequently in SG for some reason 
 
 [^2]: i say "certain extent" because when we switch over to a different ISP / WAN provider, our external IP changes. This can have several noticeable side-effects. For one, I can imagine disconnecting from a zoom-call since our IP has changed, and would necessitate another renegotiation of websocket or whatever protocol with our new external IP to join back the call.
