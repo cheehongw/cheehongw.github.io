@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploring Dual WAN Solutions on a Budget"
 date:   2024-11-18 22:44:00 +0800
-categories: jekyll update
+permalink: /blog/:title
 ---
 # Exploring Dual WAN Solutions on a Budget
 
