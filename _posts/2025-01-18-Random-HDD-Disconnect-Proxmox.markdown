@@ -86,7 +86,7 @@ Indeed, after modifying the kernel boot parameters, the autosuspend feature was 
 
 Despite disabling autosuspend, the HDD disconnected again after a few hours (at 5 AM). I suspect the HDD itself initiates the disconnection due to inactivity, as "power efficiency" is a key feature advertised on the product page.
 
-<img src="/assets/images/2025-01-18-Random-HDD-Disconnect-Proxmox/image-1.png" style="width: 300px; object-fit: cover;"/>
+<img src="/assets/images/2025-01-18-Random-HDD-Disconnect-Proxmox/image-1.jpg" style="width: 300px; object-fit: cover;"/>
 
 
 For now, I have settled on a inelegant workaround by running a cron job every 5 minutes. This reads a random block from the HDD to keep it active. 
