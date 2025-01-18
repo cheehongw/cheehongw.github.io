@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Portable ext HDD disconnects randomly on Proxmox"
+title:  "Portable external HDD disconnects randomly on Proxmox"
 date:   2025-01-18 19:45:00 +0800
 permalink: /blog/:title
 ---
-# Portable external Seagate HDD disconnects randomly on Proxmox (an in-progress analysis)
 
 Recently, I added a 4TB [Seagate Ultra Touch HDD](https://www.seagate.com/sg/en/products/external-hard-drives/ultra-touch-external-drives/?bvstate=pg:2/ct:r)to my Proxmox server, as it was running out of storage for my media server.
 > <img src="/assets/images/2025-01-18-Random-HDD-Disconnect-Proxmox/ultratouch.jpg" style="width: 300px; object-fit: cover;"/>
@@ -97,6 +96,17 @@ For now, I have settled on a inelegant workaround by running a cron job every 5 
 Will this prevent disconnection? I don't know. I will report back in a month or so if it disconnects again.
 
 In the meantime, I’d appreciate any suggestions from my readers on how to tackle this problem effectively. You can contact me using my details on my github page.
+
+## System Information
+
+
+```
+root@proxmox:~# uname -a
+Linux proxmox 6.8.12-2-pve #1 SMP PREEMPT_DYNAMIC PMX 6.8.12-2 (2024-09-05T10:03Z) x86_64 GNU/Linux
+
+root@proxmox:~# lsusb
+Bus 002 Device 002: ID 0bc2:2065 Seagate RSS LLC Ultra Touch
+```
 
 
 [^1]: https://forum.proxmox.com/threads/grub-parameters-when-using-proxmox-boot-tool-refresh.118649/
