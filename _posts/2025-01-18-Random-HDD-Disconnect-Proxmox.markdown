@@ -98,7 +98,7 @@ Will this prevent disconnection? I don't know. I will report back in a month or 
 In the meantime, I’d appreciate any suggestions from my readers on how to tackle this problem effectively. You can contact me using my details on my github page.
 
 
-## Final Update (2025-01-23)
+## Final Update? (2025-01-23)
 
 Unfortunately, the HDD disconnected again multiple times in the night despite the cron job.
 
@@ -113,7 +113,6 @@ I have concluded that running ZFS on a usb-connected device is a terrible idea. 
 5. Run `mount -a` to load the new fstab entry
 
 ## System Information
-
 
 ```
 root@proxmox:~# uname -a
